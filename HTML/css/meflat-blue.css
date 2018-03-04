@@ -383,7 +383,7 @@ a:focus,
 
 .jumbotron.bg-image {
     position: relative;
-    background:url(../assets/header.jpg) 50% 50% no-repeat;
+    background:url(../assets/background.jpeg) 50% 50% no-repeat;
     background-size: cover;
 }
 
