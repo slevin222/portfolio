@@ -377,7 +377,14 @@ a:focus,
 	overflow:hidden;
 }
 
+.devIcon{
 
+
+}
+
+.devIconImg{
+    width: 100%;
+}
 
 .jumbotron.bg-image {
     position: relative;
