@@ -377,13 +377,21 @@ a:focus,
 	overflow:hidden;
 }
 
-.devIcon{
+.servicesFlex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-
+.devIconFlex{
+    width: 90px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
 }
 
 .devIconImg{
-    width: 100%;
+    width: 95%;
 }
 
 .jumbotron.bg-image {
