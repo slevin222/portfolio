@@ -59,7 +59,7 @@ td#yellow-orange{
     background:#FAC928;
 }
 .jumbotron {
-    background:url(../assets/theme-preview.jpg) no-repeat top center; 
+    background:url(../assets/background2.jpg) no-repeat top center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -67,6 +67,17 @@ td#yellow-orange{
 	background-color:#654654;
     color:#fff;
     margin-bottom:80px;
+}
+
+.devIconFlex{
+    width: 90px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.devIconImg{
+    width: 95%;
 }
 
 .panel{
