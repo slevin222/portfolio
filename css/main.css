@@ -5488,7 +5488,8 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #ecf0f1;
+  /* background-color: #ecf0f1; */
+  background-color:white;
 }
 
 .jumbotron h1 {
