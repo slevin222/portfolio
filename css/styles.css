@@ -63,8 +63,9 @@ td#yellow-orange{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	background-color:#654654;
+    background-size: cover;
+    /* background-color:#654654; */
+    background-color: white;
     color:#fff;
     margin-bottom:80px;
 }

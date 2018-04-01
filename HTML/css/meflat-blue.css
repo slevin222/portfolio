@@ -933,7 +933,8 @@ a:focus,
     margin:0;
     padding:0;
     padding-top:40px;
-    background:#38A5DB;
+    /* background:#38A5DB; */
+    background:#397ea0;
     color:#fff;
     border:none;
     text-align:center;
