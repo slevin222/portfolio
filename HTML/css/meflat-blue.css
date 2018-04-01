@@ -341,6 +341,7 @@ a:focus,
 #main-nav #logo h1{
     font-size:64px;
     font-weight:600;
+    text-shadow: 2px 2px 2px black;
     -webkit-transition:font-size 0.3s ease-out;
     transition:font-size 0.3s ease-out;
 }
@@ -348,6 +349,7 @@ a:focus,
 #main-nav #logo span{
     font-size:90%;
     position:relative;
+    text-shadow: 2px 2px 2px black;
     top:15px;
 }
 
@@ -369,7 +371,7 @@ a:focus,
 ------------------------*/
 
 .jumbotron {
-    background:#38A5DB;
+    /* background:#38A5DB; */
     color:#fff;
     padding:0;
     margin-bottom:0;
@@ -396,8 +398,17 @@ a:focus,
 
 .jumbotron.bg-image {
     position: relative;
-    background:url(../assets/background2.jpg) 50% 50% no-repeat;
+    /* background:url(../assets/background2.jpg) 50% 50% no-repeat; */
     background-size: cover;
+    background-image: url('../assets/tubebackground.jpg');
+    animation-duration: 6s;
+    animation-name: background;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes background {
+    from {background-image: url("../assets/Top-4.jpg");}
+    to {background-image: url("../assets/tubebackground.jpg");}
 }
 
 .jumbotron.bg-image:before{
@@ -428,7 +439,8 @@ a:focus,
 }
 
 .jumbotron h1.in{
-	opacity:1;
+    opacity:1;
+    text-shadow: 2px 2px 8px black;
 	-webkit-transform:translateX(0);
 	transform:translateX(0);
 }
@@ -445,7 +457,8 @@ a:focus,
 }
 
 .jumbotron p.in{
-	opacity:1;
+    opacity:1;
+    text-shadow: 2px 2px 4px black;
 	-webkit-transform:translateY(0);
 	transform:translateY(0);
 }
@@ -1210,8 +1223,8 @@ a:focus,
 
 .social-links li a {
     display:block;
-    color:#fff;
-    color:rgba(255,255,255,0.3);
+    /* color:#fff; */
+    color:rgba(255, 255, 255, 0.66);
     font-size:18px;
     width:40px;
     height:40px;
