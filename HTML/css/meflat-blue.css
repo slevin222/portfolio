@@ -387,8 +387,7 @@ a:focus,
 
 .devIconFlex{
     width: 90px;
-    height:120px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     line-height: 75px;
 }
@@ -1386,7 +1385,12 @@ a:focus,
 -----Media Queries------
 ------------------------*/    
 @media (max-width: 767px) {
-	
+	.devIconFlex{
+        width: 60px;
+        margin: 12px;
+        text-align: center;
+        line-height: 45px;
+    }
     .navbar {
         padding:0 20px;
     }
