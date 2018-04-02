@@ -387,13 +387,15 @@ a:focus,
 
 .devIconFlex{
     width: 90px;
+    height:120px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
 }
 
 .devIconImg{
-    width: 95%;
+    width: 100%;
+    height: auto;
 }
 
 .jumbotron.bg-image {
