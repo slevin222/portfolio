@@ -1049,7 +1049,7 @@ a:focus,
 #sdbr-link:before {
 	display: inline-block;
 	width:20px;
-    content:"\f0ac";
+    content:"\f09b";
     font-family:"Fontawesome";
     margin-right:10px;
 }
@@ -1125,9 +1125,9 @@ a:focus,
       height:44px;
       max-height:44px;
       min-height:44px;
-      width:207px;
-      max-width:207px;
-      min-width:207px;
+      widows: 375px;
+      max-width:375px;
+      min-width:300px;
       padding: 10px 15px;
       border-radius: 25px;
       font-size: 16px;
