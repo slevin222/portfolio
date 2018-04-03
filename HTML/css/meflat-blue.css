@@ -1174,6 +1174,18 @@ a:focus,
     margin-bottom:60px;
 }
 
+
+#contact-form .fade-left{
+    display:block;
+    position:relative;
+    margin-bottom:20px;
+}
+#contact-message{
+    min-height: 100px;
+    min-width: 400px;
+    max-width: 600px;
+}
+
 #contact-form .field-wrap .error-message{
     display:block;
     position:absolute;
@@ -1392,6 +1404,11 @@ a:focus,
         margin: 12px;
         text-align: center;
         line-height: 45px;
+    }
+    #contact-message{
+        min-height: 90px;
+        min-width: 300px;
+        max-width: 300px;
     }
     .devIconFlex p{
         font-size: 1.2rem;
