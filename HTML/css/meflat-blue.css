@@ -391,7 +391,9 @@ a:focus,
     text-align: center;
     line-height: 75px;
 }
-
+.devIconFlex p{
+    font-size: 1.6rem;
+}
 .devIconImg{
     width: 100%;
     height: auto;
@@ -1390,6 +1392,9 @@ a:focus,
         margin: 12px;
         text-align: center;
         line-height: 45px;
+    }
+    .devIconFlex p{
+        font-size: 1.2rem;
     }
     .navbar {
         padding:0 20px;
