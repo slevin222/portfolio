@@ -396,22 +396,22 @@ a:focus,
 }
 .devIconImg{
     width: 100%;
-    height: 65%;
+    height: 62%;
 }
 
 .jumbotron.bg-image {
     position: relative;
     /* background:url(../assets/background2.jpg) 50% 50% no-repeat; */
     background-size: cover;
-    background-image: url('../assets/tubebackground.jpg');
+    background-image: url('../assets/background.jpg');
     animation-duration: 6s;
     animation-name: background;
     animation-timing-function: ease-in-out;
 }
 
 @keyframes background {
-    from {background-image: url("../assets/Top-4.jpg");}
-    to {background-image: url("../assets/tubebackground.jpg");}
+    from {background-image: url("../assets/background2.jpg");}
+    to {background-image: url("../assets/background.jpg");}
 }
 
 .jumbotron.bg-image:before{
