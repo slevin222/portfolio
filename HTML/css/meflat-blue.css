@@ -407,9 +407,9 @@ a:focus,
     /* background:url(../assets/background2.jpg) 50% 50% no-repeat; */
     background-size: cover;
     background-image: url('../assets/background.jpg');
-    animation-duration: 6s;
+    /* animation-duration: 6s;
     animation-name: background;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-out; */
 }
 
 @keyframes background {
