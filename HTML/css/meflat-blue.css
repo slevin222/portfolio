@@ -406,7 +406,7 @@ a:focus,
     background-image: url('../assets/background.jpg');
     animation-duration: 6s;
     animation-name: background;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 @keyframes background {
@@ -1142,8 +1142,9 @@ a:focus,
 
 
 .lb_wrap .lb_label.top, .lb_wrap .lb_label.bottom {
-      left: 15px !important;
+      left: calc(50% - 300px) !important;
       z-index:1;
+      display: none;
      
 }
 
