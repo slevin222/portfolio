@@ -940,7 +940,7 @@ a:focus,
     padding:0;
     padding-top:40px;
     /* background:#38A5DB; */
-    background:#397ea0;
+    background: linear-gradient(180deg, rgba(25, 124, 177, 0.93), rgba(142, 201, 232, 0.6));
     color:#fff;
     border:none;
     text-align:center;
