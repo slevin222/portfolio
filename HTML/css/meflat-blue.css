@@ -341,7 +341,7 @@ a:focus,
 #main-nav #logo h1{
     font-size:64px;
     font-weight:600;
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; */
     -webkit-transition:font-size 0.3s ease-out;
     transition:font-size 0.3s ease-out;
 }
@@ -349,7 +349,7 @@ a:focus,
 #main-nav #logo span{
     font-size:90%;
     position:relative;
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; */
     top:15px;
 }
 
@@ -446,7 +446,7 @@ a:focus,
 
 .jumbopic h1.in{
     opacity:1;
-    text-shadow: 2px 2px 8px black;
+    /* text-shadow: 2px 2px 8px black; */
 	-webkit-transform:translateX(0);
 	transform:translateX(0);
 }
@@ -464,7 +464,7 @@ a:focus,
 
 .jumbopic p.in{
     opacity:1;
-    text-shadow: 2px 2px 4px black;
+    /* text-shadow: 2px 2px 4px black; */
 	-webkit-transform:translateY(0);
 	transform:translateY(0);
 }
