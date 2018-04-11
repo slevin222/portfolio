@@ -55,10 +55,10 @@ $(document).ready(function () {
 					$('#contact-form button').width('auto');
 					$('#contact-form').removeClass('clicked');
 				}, 2000);
-
 			}, setTimeout(function () {
 				$('#contact-form button').data('Connection Fail');
 			}, 3000));
+
 		}
 
 		return false;
