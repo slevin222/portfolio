@@ -13,7 +13,6 @@ $(document).ready(function () {
 			errorMessage = $('#contact-form button').data('error-message'),
 			sendingMessage = $('#contact-form button').data('sending-message'),
 			okMessage = $('#contact-form button').data('ok-message'),
-			connFailed = $('#contact-form button').data('Connection Fail'),
 			hasError = false;
 
 		$('#contact-form button').width(buttonWidth);
@@ -58,7 +57,7 @@ $(document).ready(function () {
 				}, 2000);
 
 			}, setTimeout(function () {
-				connFailed;
+				$('#contact-form button').data('Connection Fail');
 			}, 3000));
 		}
 
