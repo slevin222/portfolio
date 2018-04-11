@@ -57,7 +57,9 @@ $(document).ready(function () {
 					$('#contact-form').removeClass('clicked');
 				}, 2000);
 
-			}, setTimeout(connFailed, 2000));
+			}, setTimeout(function () {
+				connFailed;
+			}, 3000));
 		}
 
 		return false;
