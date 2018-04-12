@@ -56,7 +56,7 @@ $(document).ready(function () {
 					$('#contact-form').removeClass('clicked');
 				}, 2000);
 			}, setTimeout(function () {
-				$('#contact-form button').data('Connection Fail');
+				$('#contact-form button').data('connection-fail');
 			}, 3000));
 
 		}
