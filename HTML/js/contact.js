@@ -49,6 +49,11 @@ $(document).ready(function () {
 				var checkShanq = $('#contact-form').hasClass('clicked');
 				if (checkShanq) {
 					$('#contact-form button').html('Connection Failed!');
+					setTimeout(function () {
+						$('#contact-form button').html(buttonCopy);
+						$('#contact-form button').width('auto');
+						$('#contact-form').removeClass('clicked');
+					}, 3000);
 				}
 			}, 5000);
 			var formInput = $(this).serialize();

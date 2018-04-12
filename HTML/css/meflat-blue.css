@@ -184,6 +184,7 @@ a:focus,
 
 .dark-bg{
     background:#1D2026;
+    background: linear-gradient(90deg, rgb(0, 2, 10), rgba(2, 6, 67, 1));
 }
 
 .light-typo {
@@ -940,7 +941,6 @@ a:focus,
     margin:0;
     padding:0;
     padding-top:40px;
-    /* background:#38A5DB; */
     background: linear-gradient(180deg, rgba(25, 124, 177, 0.93), rgba(142, 201, 232, 0.6));
     color:#fff;
     border:none;
