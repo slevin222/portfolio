@@ -48,7 +48,7 @@ $(document).ready(function () {
 			setTimeout(function () {
 				var checkShanq = $('#contact-form').hasClass('clicked');
 				if (checkShanq) {
-					$('#contact-form button').html('<i class="fa fa-times"></i> Connection Failed!');
+					$('#contact-form button').html('Connection Failed!');
 				}
 			}, 5000);
 			var formInput = $(this).serialize();
