@@ -45,7 +45,12 @@ $(document).ready(function () {
 		}
 		else {
 			$('#contact-form button').html('<i class="fa fa-spinner fa-spin"></i>' + sendingMessage);
-
+			setTimeout(function () {
+				var checkShanq = $('#contact-form').hasClass('clicked');
+				if (checkShanq) {
+					$('#contact-form button').html('<i class="fa fa-times"></i> Connection Failed!');
+				}
+			}, 5000);
 			var formInput = $(this).serialize();
 			$.post($(this).attr('action'), formInput, function (data) {
 				$('#contact-form button').html('<i class="fa fa-check"></i>' + okMessage);
@@ -55,9 +60,7 @@ $(document).ready(function () {
 					$('#contact-form button').width('auto');
 					$('#contact-form').removeClass('clicked');
 				}, 2000);
-			}, setTimeout(function () {
-				$('#contact-form button').data('connection-fail');
-			}, 3000));
+			});
 
 		}
 
